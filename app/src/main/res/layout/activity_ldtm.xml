@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".LDTM">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="LET'S DO THE MATH" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:text="FOR EACH KILOGRAM OF TRASH THAT YOU SUBMIT YOU ARE AWARDED WITH THE FOLLOWING AMOUNT OF CREDITS:\n
+(1)GENERAL TRASH - 100 CREDITS\n
+(2)DRY TRASH - 150 CREDITS\n
+(3)E-WASTE* - 200 CREDITS\n
+*THE AMOUNT OF CREDITS FROM E-WASTE CAN VARY ACCORDING TO THE THINGS THAT YOU HAVE SUBMITTED.\n
+\n\nFOR MORE INFO ON CLASSIFICATION OF TRASH CLICK BELOW." />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CLASSIFICATION"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:id="@+id/btn"
+        tools:ignore="InvalidId"></androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+

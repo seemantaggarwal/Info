@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WDWD">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="WHAT DO WE DO?" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp"
+        android:text="OUR AGENTS COLLECT YOUR TRASH FOR FREE! AND IN RETURN WE GIFT YOU SOME CREDITS ACCORDING TO THE WEIGHT OF THE TRASH THAT YOU ARE GIVING AWAY. THESE CREDITS ARE REDEEMABLE IN FORM OF VARIOUS COUPONS WHICH CAN BE REDEEMED FROM THE RESPECTICE VENDOR SITE FROM OUR WIDE RANGE OF AMAZING SPONSORS. WE CHARGE YOU ABSOLUTELY NOTHING. ALL YOU HAVE TO DO IS SCAN THE QR CODE THROUGH THE APP SHOWN BY OUR AGENT AFTER HE WEIGHS YOUR TRASH TO ITS APPROPRIATE AMOUNT. AND VOILA! THE SUBSEQUENT CREDITS ARE ADDED TO YOUR ACCOUNT AND YOU ARE READY TO SHOP." />
+</LinearLayout>

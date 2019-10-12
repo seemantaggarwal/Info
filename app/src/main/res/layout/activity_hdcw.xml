@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hdcw">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="HOW DO CREDITS WORK" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:text="CREDITS WORK AS A FORM OF REDEEMABLE ON APP CURRENCY, YOUR CREDITS EARNT CAN BE REDEEMED IN EXCHANGE FOR VARIOUS COUPONS REDEEMABLE ON VENDOR SITES FROM A WIDE RANGE OF SPONSORS THAT WE HAVE. SO KEEP ON SUBMITTING MORE AND MORE TRASH TO EARN MORE AND WHILE AT IT, CONTRIBUTE TOWARDS THE HEALTH OF MOTHER EARTH\n
+\nFOR MORE INFO ON THE VALUE OF CREDITS CLICK BELOW" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LET'S DO THE MATH"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:id="@+id/btn"
+        tools:ignore="InvalidId"></androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
